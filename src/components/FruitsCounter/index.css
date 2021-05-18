@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.fruit-container {
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.count {
+  color: #ffd569;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
